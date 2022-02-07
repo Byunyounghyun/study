@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 1400px;
+    height: 100vh;
+   
+
+}
+
+.user_from{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 800px;
+    height: 1000px;
+    left: 00px;
+
+    border: 1px solid blue;
+}
+
+.user_name{
+    display: flex;
+}

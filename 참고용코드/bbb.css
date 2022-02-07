@@ -1,0 +1,23 @@
+.a1{
+    font-size:30px;
+    border-bottom: solid 3px #000000;/*밑줄(색,굵기*/
+    padding-bottom: 25px;/*글아래쪽간격*/
+    width: auto; /*아랫줄 길이*/
+    
+}
+
+.text1{
+    word-break: keep-all;
+}
+
+.textcolor{
+    color:red ;
+}
+
+.g_font{
+    color:blue;
+}
+
+.font_inter{
+    word-spacing: 250px;
+}

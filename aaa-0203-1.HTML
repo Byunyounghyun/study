@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <style>
+            body { 
+                height: 300px;
+            }
+            #parent, #other, #grand{
+                border:5px solid tomato;
+            }
+            #grand{
+                position: relative;
+            }
+            #me{
+                background-color: black;
+                color: blanchedalmond;
+                position: absolute; /*--absolute 쓸때는 left,top을 같이 써준다*/
+                left:0;
+                top:0;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="other">other</div>
+        <div id="grand">
+            grand
+            <div id="parent">
+                parent
+                <div id="me">me</div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,89 @@
+body{ /*웹페이지 범위 지정*/
+    width: 1400px;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_from{ /*로그인 폼 위치 지정*/
+    height: 400px;
+    width: 500px;
+    border: 0.5px solid rgb(145, 145, 145);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_id{
+    margin-bottom: 5px;
+}
+
+.login_id>input{         /*로그인 입력창*/
+    height: 30px;
+    width: 300px;
+    border: 0.2px solid rgb(255, 251, 0);
+}
+
+.login_password{ /*패스워드 입력창과 로그인버튼 사이 간격*/
+    margin-bottom: 20px;
+}
+
+.login_password>input{     /*패스워드 입력창*/
+    height: 30px;
+    width: 300px;
+    border: 0.2px solid rgb(255, 251, 0);
+}
+
+.log_pass_from{      /*로그인버튼위치*/
+    display:flex;
+    justify-content: center;
+}
+
+.log_pass_from>button{  /*로그인버튼색*/
+        height:50px;
+        width :154px;
+        background-color: green;    /*버튼색*/
+        border : 5px solid black;    /*버튼테두리 선색*/       
+
+        color : white;  /*버튼내글씩색*/
+        font-weight: bold;  /*폰트정보*/
+        font-size : 16px;    /*폰트크기*/
+
+}
+
+.login_button_from>button{ /*로그인버튼 크기*/
+    height: 60px;
+    width :170px;
+        
+}
+
+.login_button_from>button>img{ /*로그인버튼 실행시 뜨는 이미지위치 및 크기*/
+        display: none;
+        position: absolute;
+        top : 560px;    /*전체페이지기준에서 맞춤*/
+        left : 570px;   /*전체페이지기준에서 맞춤*/
+        height:40px;
+}
+
+.log_pass_search{ /*id/비밀번호찾기 및 회원가입 버튼이 있는 공간*/
+    width: 130px;
+    height: 60px;
+    background-color: brown;
+        
+}
+.log_pass_search>button{
+    width : 200px;
+}
+.log_pass_search > button:nth-child(1) {
+    background-color: yellow;
+}
+
+.log_pass_search > button:nth-child(2){
+    width: 300px;
+}
+
+.login_button_from>button:active > img{ /*로그인버튼 눌렀을때 지정한 이미지 실행*/
+    display:flex;
+  }

@@ -1,0 +1,12 @@
+
+.list {
+    font-size: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom : 30px;
+}
+
+.contents-list{
+    background-color: yellow;
+}
+
